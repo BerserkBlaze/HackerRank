@@ -25,7 +25,6 @@ class Result
     public static List<int> breakingRecords(List<int> scores)
     {
         int min=scores[0], max=scores[0], count_Min=0, count_Max=0;
-        string score_Result="";
         
         for (int i=0;i<scores.Count;i++){
             if(max<scores[i]){
@@ -43,7 +42,6 @@ class Result
         
         return ListScores;
     }
-
 }
 
 class Solution
